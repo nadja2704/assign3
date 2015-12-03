@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+
+<meta charset="utf-8">
+	    <meta name="robots" content="noindex, nofollow">
+	    <meta name="author" content="Nadja Krenzien">
+	    <meta name="publisher" content="Brock University">
+	<title>This is my first page</title>
+    <link href="css/style.css" rel="stylesheet"> <!-- Relative link -->
+	 <script src="function.js" type="text/javascript" charset="utf-8">
+     </script>
+
+</head>
+
+<body>
+<div>
+		<nav> 
+		<a class="navi" href="home.html">Start</a>
+		<a class="navi" href="#images">Images</a> <!-- In page anchor--> 
+		</nav>
+
+
+   <section class="content">   
+   <!--CONTENT-->
+<header><h1>HELLO</h1></header> <!-- Header 1 --> 
+<p> <!-- Paragraph 1-->
+	Please find a very cool article right <a href="http://www.w3schools.com/tags/att_link_href.asp">here </a> </p>
+
+<hr/>
+<article class="text">
+<h2> Hello please insert sth here</h2>
+<div id="input">
+
+<input type="text" id="one" placeholder="Please type first number"></input>
+<input type="text" id="two" placeholder="Please type second number"></input>
+		
+		<button type="button" onclick="wordcalcu();">Save number</button>
+
+<br/>
+<br/>
+<br/>
+
+
+ <select id="operation">
+  <option value="add">+</option>
+  <option value="subtract">-</option>
+  <option value="divide">/</option>
+  <option value="multiply">*</option>
+</select> 
+
+		<button type="button" onclick="operation();">Calculate!!!</button>
+
+
+</div>
+
+
+</article>
+
+<article class="text">
+<h2>And the result is: </h2>
+<div id="output">
+
+
+</div>
+</article>
+
+<hr/>
+<article id="images">
+	<h2>Images </h2> <!-- Header 2-->
+
+<img src="images/smiley.jpg" alt="smiley"/>  <!-- Relative Image --> 
+<img src="http://www.junglemiami.com/wp-content/uploads/2015/03/Smiley-Face-Blushing.png" alt="smiley good"/>
+<!-- Absolute Image-->
+</article>
+<footer id="bottom">
+<img src="images/bye.jpg" alt="bye"/>  
+</footer>
+
+
+</section>
+</div> 
+<!-- Nadja Krenzien (nk15qx), Student Number: 5938998, IASC1P02, Assignment 1-->
+</body>
+</html>
+
