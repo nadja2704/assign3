@@ -1,4 +1,4 @@
-body {
+﻿body {
 	margin: 0;
 	padding: 0;
 	background-color: #C7C7C7;
@@ -109,5 +109,10 @@ footer > img {
 	height: 130px;
 	position: relative; float:left;}
 
-/* Nadja Krenzien, 5938998, 20151102, assignment1*/
-/* On Github: https://github.com/nadja2704/nadja2704.github.io/style.css*/
+
+#output {
+font-size: 20px;
+background-color: orange;
+color: black;}
+/* Nadja Krenzien, 5938998, 20151102, assignment3*/
+/* On Github: https://github.com/nadja2704/assign3/blob/master/assign3/style.css*/
